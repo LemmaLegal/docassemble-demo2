@@ -1,0 +1,16 @@
+---
+mandatory: True
+question: |
+  What is your favorite number?
+fields:
+  - Favorite Number: the_number 
+    datatype: number
+---
+mandatory: True
+question: |
+  Hello, world
+subquestion: |
+  Your magic number is ${ magic_number }
+---
+code: |
+  magic_number = the_number / 3 + 1
